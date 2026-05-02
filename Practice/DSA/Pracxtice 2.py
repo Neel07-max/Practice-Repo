@@ -13,6 +13,5 @@ def palindrome(n):
         rev = rev * 10 + r
         n = n // 10
     return rev == temp
-
 print(palindrome(545))  
 print(palindrome(123))
